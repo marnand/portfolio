@@ -1,0 +1,41 @@
+footer {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.social {
+    margin: 50px 0 40px 50px;
+    font-size: 30px;
+}
+
+.social > li {
+    margin-right: 30px;
+}
+
+footer li:hover {
+    color: #fff;
+}
+
+.footer-menus, 
+footer p {
+    margin: 0 50px;
+}
+
+.footer-menus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-menu li {
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+footer p {
+    font-size: small;
+    margin: 50px 0 20px 50px;
+}

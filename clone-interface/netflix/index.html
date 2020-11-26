@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/styles/owl/owl.carousel.min.css">
+	<link rel="stylesheet" href="./assets/styles/owl/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./assets/styles/main.css">
+	<link rel="stylesheet" href="./assets/styles/header.css">
+	<link rel="stylesheet" href="./assets/styles/footer.css">
+	<link rel="stylesheet" href="./assets/styles/main-content.css">
+	<title>Netflix</title>
+</head>
+<body>
+
+	<header><!--header-->
+		<nav><!--nav-->
+			<div class="logo">
+				<img src="./assets/img/netflix-logo.png" alt="netflix-logo">
+			</div>
+			<div class="nav">
+				<div class="menu">
+					<ul>
+						<li>Início</li>
+						<li>Séries</li>
+						<li>Filmes</li>
+						<li>Mais recentes</li>
+						<li>Minha lista</li>
+					</ul>
+				</div>
+				
+				<div class="nav-elements">
+					<ul>
+						<li><i class="fas fa-search"></i></li>
+						<li>INFANTIL</li>
+						<li><i class="fas fa-gift"></i></li>
+						<li><i class="fas fa-bell"></i></li>					
+				</div>
+			</div>
+		</nav><!--nav-->
+
+		<section class="preview"><!--.preview-->
+			<div class="container-video">
+				<video id="slider" autoplay muted loop src="./assets/videos/the-umbrella-academy.mp4"></video>
+			</div>
+			<div class="resume">
+				<p class="title">
+					<img id="title" src="./assets/img/title.png" alt="título">
+				</p>
+				<p id="content" class="content">
+					Com a morte do pai, irmãos com poderes extraordinários se reencontram e descobrem surpreendentes segredos de 
+					família – além de uma ameaça iminente à humanidade.
+				</p>
+
+				<div class="wrapper-btn">
+					<button><i class="fa fa-play"></i> Assistir</button>
+					<button><i class="fa fa-info-circle"></i> Mais informações</button>
+				</div>
+			</div>
+		</section><!--.preview-->
+	</header><!--header-->
+
+	<main>
+		<strong>
+			<p>Populares na netflix</p>
+		</strong>
+		<div class="owl-carousel owl">
+			<div class="item">
+				<img 
+				onclick="videoUrl('assets/videos/the-umbrella-academy.mp4', 'assets/img/title.png', 'umbrella')" 
+				src="./assets/img/items/the-umbrella-academy.jpg"  
+				alt="the umbrella academy">
+			</div>
+			<div class="item">
+				<img 
+				onclick="videoUrl('assets/videos/after-life.mp4', 'assets/img/after-life.png', 'after')" 
+				src="./assets/img/items/after-life.jpg" 
+				alt="after life">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/anne-with-e.mp4', 'assets/img/anne-with-an-e.png', 'anne')" 
+				src="./assets/img/items/anne-with-e.jpg" 
+				alt="anne with e">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/dark.mp4', 'assets/img/dark.png', 'dark')" 
+				src="./assets/img/items/dark.jpg" 
+				alt="dark">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/desencanto.mp4', 'assets/img/desencanto.png', 'desencanto')" 
+				src="./assets/img/items/desencanto.jpg" 
+				alt="desencanto">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/high-score.mp4', 'assets/img/high-score.png', 'high')" 
+				src="./assets/img/items/high-score.jpg" 
+				alt="high score">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/la-casa-de-papel.mp4', 'assets/img/la-casa-de-papel.png', 'papel')" 
+				src="./assets/img/items/la-casa-de-papel.jpg" 
+				alt="la casa de papel">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/narcos.mp4', 'assets/img/narcos.png', 'narcos')" 
+				src="./assets/img/items/narcos.jpg" 
+				alt="narcos">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/ozark.mp4', 'assets/img/ozark.png', 'ozark')" 
+				src="./assets/img/items/ozark.jpg" 
+				alt="ozark">
+			</div>
+			<div class="item">
+				<img onclick="videoUrl('assets/videos/the-midnight-gospel.mp4', 'assets/img/the-mid-night-gospel.png', 'midnight')" 
+				src="./assets/img/items/the-midnight-gospel.jpg" 
+				alt="the midnight gospel">
+			</div>
+		</div>
+	</main>
+
+	<footer>
+		<ul class="social">
+			<li><i class="fa fa-facebook"></i></li>
+			<li><i class="fa fa-instagram"></i></li>
+			<li><i class="fa fa-twitter"></i></li>
+			<li><i class="fa fa-youtube"></i></li>
+		</ul>
+
+		<div class="footer-menus">
+			<ul class="footer-menu">
+				<li>Idioma e legendas</li>
+				<li>Imprensa</li>
+				<li>Privacidade</li>
+				<li>Entre em contato</li>
+			</ul>
+
+			<ul class="footer-menu">
+				<li>Audiodescrição</li>
+				<li>Relação com investidores</li>
+				<li>Avisos legais</li>
+			</ul>
+
+			<ul class="footer-menu">
+				<li>Centro de ajuda</li>
+				<li>Carreiras</li>
+				<li>Preferências de Cookies</li>
+			</ul>
+
+			<ul class="footer-menu">
+				<li>Preferências de Cookies</li>
+				<li>Termos de uso</li>
+				<li>Informações corporativas</li>
+			</ul>
+		</div>
+
+		<p class="footer-credits">&copy; 2020 iuricode.</p>
+	</footer>
+
+<script src="./assets/js/owl/jquery.min.js"></script>
+<script src="./assets/js/owl/owl.carousel.min.js"></script>
+<script src="./assets/js/owl/setup.js"></script>
+<script src="./assets/js/main.js"></script>
+<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+</body>
+</html>
